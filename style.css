@@ -2,4 +2,61 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:25pt;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100vw;
+}
+
+#container{
+    display: flex;
+}
+
+#sodaListContainer{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    border: 5px groove goldenrod;
+}
+
+#sodaList{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+#sodaList li{
+    margin-bottom: 30px;
+}
+
+#coinsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.coinContainer{
+    margin: 20px;
+    
+}
+
+.coin{
+    height: 150px;
+}
+
+#sodaMachineContainer{
+
+}
+
+#vending{
+    height: 1000px;
 }
