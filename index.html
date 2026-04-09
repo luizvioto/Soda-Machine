@@ -7,20 +7,24 @@
     <title>Soda Machine</title>
 </head>
 <body>
-    <div id="container">
-        <div id="sodaListContainer">
-            <ul id="sodaList">
-                <li>aaaaaaaaaaaaaaa</li>
-                <li>bbbbbbbbbbbbbbb</li>
-                <li>ccccccccccccccc</li>
-            </ul>
+    <div id="wrapper">
+        <div id="container">
+            <div id="sodaButtonsContainer">
+                <div id="sodaListContainer"></div>
+                <div id="output"></div>
+                <button id="confirm">Confirma</button>
+            </div>
+            <div id="coinsContainer">
+                <div class="coinContainer"><img id='coin25' class="coin" src="./images/25cents.png" alt="25 centavos"></div>
+                <div class="coinContainer"><img id='coin50' class="coin" src="./images/50cents.png" alt="50 centavos"></div>
+                <div class="coinContainer"><img id='coin100' class="coin" src="./images/1real.png" alt="1 real"></div>
+                <div id="cash">Saldo:<br>00.00<br></div>
+            </div>
+            <div id="sodaMachineContainer">
+                <img id="vending" src="./images/vending.png" alt="Vending Machine">
+                <div id="price">Preço<br></div>
+            </div>
         </div>
-        <div id="coinsContainer">
-            <div class="coinContainer"><img class="coin" src="./images/25cents.png" alt="25 centavos"></div>
-            <div class="coinContainer"><img class="coin" src="./images/50cents.png" alt="50 centavos"></div>
-            <div class="coinContainer"><img class="coin" src="./images/1real.png" alt="1 real"></div>
-        </div>
-        <div id="sodaMachineContainer"><img id="vending" src="./images/vending.png" alt="Vending Machine"></div>
     </div>
     <script src="script.js"></script>
 </body>
